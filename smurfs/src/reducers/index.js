@@ -21,7 +21,7 @@ export const loading = (loading=false, action) => {
   }
 }
 
-export const error = (error=false, action) => {
+export const error = (error=null, action) => {
   switch (action.type) {
     case types.ERROR:
       return action.payload;
