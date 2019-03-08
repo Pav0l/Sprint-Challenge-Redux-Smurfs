@@ -25,6 +25,7 @@ const StyledContainer = styled.div`
   padding: 10px;
   max-width: 200px;
   margin: 10px;
+  text-align: center;
 `;
 
 const SmurfName = styled.div`

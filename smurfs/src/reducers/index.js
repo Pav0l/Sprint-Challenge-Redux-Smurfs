@@ -31,6 +31,10 @@ export const error = (error=null, action) => {
   }
 }
 
-const rootReducer = combineReducers({ smurfs, loading, error });
+const rootReducer = combineReducers({
+  smurfs,
+  loading,
+  error,
+});
 
 export default rootReducer;
