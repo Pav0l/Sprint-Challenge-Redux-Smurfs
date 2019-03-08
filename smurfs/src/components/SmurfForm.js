@@ -16,7 +16,7 @@ class SmurfForm extends Component {
 
   render() {
     return (
-      <StyledForm>
+      <StyledForm autoComplete="off">
 
         <input
           value={this.props.smurfForm.name}
