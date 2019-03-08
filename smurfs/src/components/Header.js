@@ -1,15 +1,18 @@
 import React, { Component } from 'react';
-// import styled from 'styled-components';
+import styled from 'styled-components';
 
 
 export default class Header extends Component {
   render() {
     return (
-      <div>
+      <HeaderContainer>
         <h1>Welcome to Smurf Landia!</h1>
-      </div>
+      </HeaderContainer>
     );
   }
 }
 
-
+const HeaderContainer = styled.div`
+  text-align: center;
+  color:rgb(86, 170, 255);
+`; 
